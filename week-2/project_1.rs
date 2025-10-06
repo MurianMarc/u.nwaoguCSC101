@@ -1,14 +1,14 @@
-fn main {
+fn main () {
     // defining the values
-    let p:f64 = 520_000_000;
-    let r:f64 = 10;
-    let T:f64 = 5;
+    let p:f64 = 520_000_000.0;
+    let r:f64 = 10.0;
+    let t:f64 = 5.0;
 
     
 
     //calculate the Amount and state it
 
-    let a = p * (1 + (r/100)) * t;
+    let a = p * (1.0 + (r/100.0)).powf(t);
 
     println!("For an Amount of {}", a);
 

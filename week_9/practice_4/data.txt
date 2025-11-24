@@ -1,0 +1,3 @@
+i used bufwriter to write to this text file
+Hello Class
+this is the appendage to the document.
